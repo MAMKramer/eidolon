@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Eidolon" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/elAppD" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../bin" />
+				<Option object_output="../obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../../elTransmissionLib/bin/libElTransmissionD.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/elApp" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../bin" />
+				<Option object_output="../obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../../elTransmissionLib/bin/libElTransmission.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="/usr/include" />
+			<Add directory="/usr/include/irrlicht" />
+			<Add directory="/opt/nite2/Include" />
+			<Add directory="../../elTransmissionLib/include" />
+			<Add directory="../src" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add library="NiTE2" />
+			<Add library="OpenNI2" />
+			<Add library="pthread" />
+			<Add directory="/usr/lib" />
+			<Add directory="/opt/nite2/Redist" />
+		</Linker>
+		<Unit filename="../src/elApp.cpp" />
+		<Unit filename="../src/elApp.h" />
+		<Unit filename="../src/elGlobals.cpp" />
+		<Unit filename="../src/elGlobals.h" />
+		<Unit filename="../src/elIUserStateEvaluator.h" />
+		<Unit filename="../src/elInteractionPlane.cpp" />
+		<Unit filename="../src/elInteractionPlane.h" />
+		<Unit filename="../src/elSkeleton.cpp" />
+		<Unit filename="../src/elSkeleton.h" />
+		<Unit filename="../src/elUserStateEvaluatorTest.cpp" />
+		<Unit filename="../src/elUserStateEvaluatorTest.h" />
+		<Unit filename="../src/elUserStates.h" />
+		<Unit filename="../src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
