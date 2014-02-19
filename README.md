@@ -21,7 +21,7 @@ Tutorial coming soon.
 
 Questions?
 ----------
-Drop a mail at ottona@aec.at or use Jabber/XMPP ottona@jabber.at
+Drop a mail at ottona (a) aec.at or use Jabber/XMPP ottona (a) jabber.at
 
 License
 -------
