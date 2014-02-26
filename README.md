@@ -17,7 +17,7 @@ Eidolon comes with a simple transmission library that requires the visualization
 Tutorial / Documentation
 --------
 The Doxyfile can be found in /doc, currently only those parts exposed in the transmission lib are documented. To be continued.
-Tutorial coming soon.
+An extensive tutorial can be found under /doc/installation.pdf. This tut grows day by day.
 
 Questions?
 ----------

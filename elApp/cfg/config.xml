@@ -1,5 +1,5 @@
 <settings>
     <evaluator evaldist="2.7" radius="0.3" heightoffset="0.49"/> <!-- dist in meters a user can be max to still be evaluated -->
-    <interaction ulx="-0.69" uly="1.25" lrx="0.69" lry="0.04"/>
+    <interaction ulx="0.69" uly="1.25" lrx="-0.69" lry="0.04"/>
     <sender host="192.168.2.13" port="4997"/>
 </settings>

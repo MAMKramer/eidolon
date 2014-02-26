@@ -24,7 +24,7 @@ elGlobals* elGlobals::instance = 0;
 
 elGlobals::elGlobals()
 {
-    dev = createDevice(video::EDT_OPENGL, core::dimension2du(1280, 800), 32, false, false, true);
+    dev = createDevice(video::EDT_OPENGL, core::dimension2du(1024, 768), 32, false, false, true);
     sman = dev->getSceneManager();
     drv = dev->getVideoDriver();
     timer = dev->getTimer();

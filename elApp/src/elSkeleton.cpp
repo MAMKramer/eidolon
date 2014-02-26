@@ -222,5 +222,5 @@ const elSkeletonMap& elSkeleton::getTransmissionProjectedSkeletonMap() const
 void elSkeleton::setSkeletonHeightOffset(f32 offsetMeters)
 {
     heightOffset = offsetMeters;
-    printf("HMSKELETON: New height offset: %2.3f\n", heightOffset);
+    printf("ELSKELETON: New height offset: %2.3f\n", heightOffset);
 }

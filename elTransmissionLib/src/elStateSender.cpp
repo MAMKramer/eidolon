@@ -36,7 +36,7 @@ void elStateSender::setupConnection(const char* host, unsigned short port)
     udpMan->Create();
     udpMan->Connect(host, port);
 
-    printf("HMSTATESENDER: Sending to %s on port %u\n", host, port);
+    printf("ELSTATESENDER: Sending to %s on port %u\n", host, port);
 }
 
 
