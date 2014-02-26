@@ -33,7 +33,7 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add option="-std=c++11" />
+			<Add option="-std=c++0x" />
 			<Add option="-Wall" />
 			<Add option="-DNO_TRACELOG" />
 			<Add directory="../../elApp/src" />
